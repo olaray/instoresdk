@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FF08224E"
+    android:orientation="horizontal"
+    android:paddingLeft="9.42dp"
+    android:paddingTop="10.47dp"
+    android:paddingBottom="9.44dp">
+
+    <ImageView
+        android:id="@+id/textView2"
+        android:layout_width="48.07dp"
+        android:layout_height="47dp"
+        android:layout_marginRight="11.58dp"
+        android:maxWidth="48.07dp"
+        android:maxHeight="47.09dp"
+        android:src="@drawable/zone_logo" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="FIRST ZONE"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:fontFamily="@font/roboto" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="Tap here to pay in stores"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/textView4"
+        android:layout_width="38.51dp"
+        android:layout_height="39dp"
+        android:layout_marginRight="14.86dp"
+        android:src="@drawable/zone_qr" />
+</LinearLayout>
